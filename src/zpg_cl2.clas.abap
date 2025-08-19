@@ -1,14 +1,19 @@
-class ZPG_CL2 definition
-  public
-  final
-  create public .
+CLASS zpg_cl2 DEFINITION
+  PUBLIC
+  FINAL
+  CREATE PUBLIC .
 
-public section.
-protected section.
-private section.
+  PUBLIC SECTION.
+    INTERFACES if_oo_adt_classrun .
+
+  PROTECTED SECTION.
+  PRIVATE SECTION.
 ENDCLASS.
 
 
 
-CLASS ZPG_CL2 IMPLEMENTATION.
+CLASS zpg_cl2 IMPLEMENTATION.
+  METHOD if_oo_adt_classrun~main.
+out->write( 'holand2' ).
+  ENDMETHOD.
 ENDCLASS.
