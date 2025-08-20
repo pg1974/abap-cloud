@@ -14,6 +14,6 @@ ENDCLASS.
 
 CLASS zpg_cl1 IMPLEMENTATION.
   METHOD if_oo_adt_classrun~main.
-out->write( 'holanda 3' ).
+out->write( 'holanda 4' ).
   ENDMETHOD.
 ENDCLASS.
